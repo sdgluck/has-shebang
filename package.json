@@ -1,0 +1,33 @@
+{
+  "name": "has-shebang",
+  "version": "1.0.0",
+  "description": "check if string or file contains shebang",
+  "main": "bin/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir bin",
+    "test": "npm run build && jest",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdgluck.has-shebang"
+  },
+  "keywords": [
+    "shebang",
+    "has",
+    "check",
+    "spongebob"
+  ],
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "jest": "21.0.2"
+  },
+  "jest": {
+    "testRegex": "tests.js"
+  }
+}
