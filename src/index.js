@@ -11,7 +11,7 @@ module.exports = function hasShebang (input) {
     const buff = new Buffer(2)
     const fh = fs.openSync(input, 'r')
     fs.readSync(fh, buff, 0, 2)
-    input = String(buff.toString('utf8', 0))
+    input = buff.toString('utf8', 0)
   }
 
   return input.indexOf('#!') === 0
