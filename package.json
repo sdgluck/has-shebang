@@ -1,6 +1,6 @@
 {
   "name": "has-shebang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check if string or file contains shebang",
   "main": "bin/index.js",
   "jsnext:main": "src/index.js",
