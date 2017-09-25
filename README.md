@@ -41,7 +41,7 @@ Returns true if has shebang, false otherwise.
 ```js
 import hasShebang from 'has-shebang'
 
-hasShebang('#!/usr/bin/env/node') //=> true
+hasShebang('#!/usr/bin/env node') //=> true
 hasShebang('#spongebob') //=> false
 ```
 
